@@ -12,4 +12,10 @@
         WHERE ENT_YN = 'N'
         AND EMP_ID = ?
     </entry>
+
+    <entry key="deleteEmp">
+        DELETE
+        FROM TBL_EMPLOYEE
+        WHERE EMP_ID = ?
+    </entry>
 </properties>
