@@ -24,6 +24,12 @@
 
 <hr>
 
+<h3>5. tbl_employee 테이블에서 직원 정보 삭제 </h3>
+<p>(사번 입력 받아 사번과 일치하는 행 삭제) : POST /employee/delete</p>
+<form action="${ pageContext.servletContext.contextPath }/employee/delete" method="post">
+    사번 : <input type="text" name="empId"><br>
+    <button type="submit">직원 정보 삭제</button>
+</form>
 <h3>3. tbl_employee 테이블에서 신규 직원 정보 추가</h3>
 <p>(필요한 정보를 입력받을 수 있는 form을 만들어서 추가할 것) : POST /employee/insert</p>
 <form action="${ pageContext.servletContext.contextPath }/employee/insert" method="post">
